@@ -1,0 +1,8 @@
+//use this link function.php
+include_once( get_stylesheet_directory() .'/inc/breadcrumb.php');
+
+
+// How to Display breadcrumbs Code
+<div class="bradcumes">
+		<?php if(function_exists('wordpress_breadcrumbs'))wordpress_breadcrumbs(); ?>
+</div>
